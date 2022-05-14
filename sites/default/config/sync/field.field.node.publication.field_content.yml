@@ -1,0 +1,21 @@
+uuid: 34da5b27-0c5e-4644-b399-5ccef3ee5ca2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.publication
+  module:
+    - text
+id: node.publication.field_content
+field_name: field_content
+entity_type: node
+bundle: publication
+label: Content
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,27 @@
+{
+  "name": "mck_vi_bootstrap",
+  "version": "1.0.0",
+  "description": "Mckinsey VI Bootstrap SASS implementation",
+  "main": "index.js",
+  "scripts": {
+    "lint": "sass-lint -v",
+    "lint:fix": "sass-lint-auto-fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "popper": "^1.0.1",
+    "sass-lint-auto-fix": "^0.21.0"
+  }
+}

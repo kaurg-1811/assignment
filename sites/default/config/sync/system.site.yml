@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 2f900596-bb85-46b8-8318-3cd239d94286
+name: assignment
+mail: kaurg1811@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /publication
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

@@ -1,0 +1,26 @@
+
+@mixin container-box {
+  width: 1200px;
+  display: block;
+  margin: $marginAuto;
+  max-width: 100%;
+  @media (max-width: 1200px) {
+    padding: 40px 20px;
+    width: 1140px
+	}
+  @media (max-width: 991px) {
+    padding: 40px 20px;
+    width: 100%;
+	}
+}
+@mixin image-responsive {
+	width: auto;
+	margin: $marginAuto;
+	max-width: 100%;
+}
+
+@mixin link-style{
+	text-decoration:  none;
+	color: $blueColor;
+}
+

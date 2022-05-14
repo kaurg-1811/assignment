@@ -1,0 +1,126 @@
+.publication {
+   @include container-box;
+   align-items: flex-start;
+   display: flex;
+   gap: 1.25rem;
+   padding: 2.5rem 0;
+   @media (max-width: 991px) {
+        flex-wrap: wrap;
+	 }
+   &--send-icon {display: inline-block;width: 30px;padding-right: 10px;}
+ 
+   &--image {
+     flex: 0 0 30%;
+     @media (max-width: 991px) {
+		width: 100%;
+	 }
+ 
+     img {
+       @include container-box;
+       width: auto;
+     }
+   }
+ 
+   &--body {
+     flex: 0 0 80%;
+     &-has-image {
+      flex: 0 0 50%;
+     }
+     @media (max-width: 991px) {
+		width: 100%;
+	}
+ 
+     h3 {
+       color: $blueColor;
+       font-weight: 500;
+       margin: $myMargin;
+       text-decoration: underline;
+     }
+    
+    .field--name-field-content-category{
+		a {
+			color: $bodyColor;
+		}
+	}
+
+     &-type {
+       align-items: center;
+       display: flex;
+       padding-bottom: 1.875rem;
+
+     }
+     
+     &-language-list {
+       margin: $myMargin;
+       padding: $myPadding;
+       list-style: none;
+ 
+       li {
+         color: $blueColor;
+         display: inline-block;
+         padding: 0.625rem;
+ 
+         &:after {
+           content: '|';
+           color: $bodyColor;
+           padding-left: 1rem;
+         }
+         &:first-child {
+           padding-left: 0;
+         }
+       }
+     }
+   }
+ 
+	&--footer {
+	   flex: 0 0 20%;
+	   align-self: center;
+	   @media (max-width: 991px) {
+		 width: 100%;
+	   }
+	 }
+
+ }
+ .view-publication-list {
+   .views-row {
+     &:nth-child(even) {
+       background: $whiteColor;
+     }
+ 
+     &:nth-child(odd) {
+       background: $greyColor;
+       border-top: 0.125rem solid $borderColor;
+       border-bottom: 0.125rem solid $borderColor;
+     }
+   }
+   .view-header {
+   	    @include container-box;
+		text-align: center;
+		padding-bottom: 40px;
+	}
+
+ }
+ 
+ .pager {
+   &__items {
+     margin: 2.5rem 0;
+ 
+     &__item {
+       a {
+         border: 1px solid $bodyColor;
+         color: $bodyColor;
+         display: inline-block;
+         padding: 0.375rem 1.25rem;
+         text-decoration: none;
+         width: 3.125rem;
+       }
+ 
+       &.is-active {
+         a {
+           border: 0.125rem solid $blueColor;
+           color: $blueColor;
+         }
+       }
+     }
+   }
+ }

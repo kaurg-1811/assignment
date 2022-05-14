@@ -1,0 +1,22 @@
+uuid: deae53ea-c827-4e32-b3ed-e94ddfb3350e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - assignment
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: assignment_breadcrumbs
+theme: assignment
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

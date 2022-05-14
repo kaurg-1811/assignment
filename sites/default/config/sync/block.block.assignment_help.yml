@@ -1,0 +1,22 @@
+uuid: f4e14e0a-3581-4ac0-bc9e-868ea9b1bec5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - assignment
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: assignment_help
+theme: assignment
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

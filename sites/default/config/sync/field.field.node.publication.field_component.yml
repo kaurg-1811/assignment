@@ -1,0 +1,31 @@
+uuid: b7881156-3e45-49e3-9e5f-84e031e49845
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_component
+    - node.type.publication
+    - paragraphs.paragraphs_type.publication
+  module:
+    - entity_reference_revisions
+id: node.publication.field_component
+field_name: field_component
+entity_type: node
+bundle: publication
+label: 'Language details '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      publication: publication
+    negate: 0
+    target_bundles_drag_drop:
+      publication:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

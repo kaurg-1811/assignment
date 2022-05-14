@@ -1,0 +1,20 @@
+uuid: 40034a49-87f7-4e5b-afec-a2d84ddf617d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - assignment
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: assignment_page_title
+theme: assignment
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
